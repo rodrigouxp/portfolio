@@ -1,0 +1,20 @@
+.primaryButton {
+    background-color: var(--primary500);
+    color: white;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 12px 24px;
+    transition: ease-out 200ms;
+}
+
+.primaryButton:hover{
+    background-color: var(--primary700);
+    transition: ease-out 200ms;
+
+}
+
+.primaryButton:active{
+    background-color: var(--primary900);
+}

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding-inline-start: 0;
+}
+
+html {
+  font-family: var(space_grotesk);
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--neutral900);
+}
+
+h1 {
+  color: white;
+}
