@@ -1,0 +1,46 @@
+.rodrigo {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 340px 60px 140px;
+}
+
+.menu {
+    display: block;
+}
+
+.top {
+    padding-bottom: 260px;
+}
+
+
+.title h1 {
+    max-width: 750px;
+
+    font-size: 180px;
+    font-weight: normal;
+    
+    background-image: url(../../public/images/Rodrigo-box.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.subtitle {
+    display: flex;
+    gap: 16px;
+    padding: 0px 12px;
+    color: white;
+
+}
+
+
+.social {
+    display: flex;
+    gap: 40px;
+}
+
+
+
+
+
+

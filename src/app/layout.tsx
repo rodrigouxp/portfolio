@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import "../styles/global.css";
 import "../styles/typography.css";
 import "../styles/colors.css";
+import { space_grotesk } from "./fonts";
 
-import Fonts from "./fonts";
 import Nav from "../components/Nav/nav";
 
 export const metadata: Metadata = {
@@ -41,15 +41,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="pt-br">
-      <Fonts />
+    <html lang="pt-br" className={space_grotesk.className}>
       <body>
         <Nav />
 
         {children}
       </body>
     </html>
-      
   );
 }
-
